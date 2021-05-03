@@ -1,5 +1,12 @@
 <?php
-// $githubUser = $this->fields->github;
+
+	/**
+	* GitHub页面
+	*
+	* @package custom
+	*/
+
+$githubUser = $this->fields->github; //add fields in typecho edit pages.
 if ($githubUser == "" || $githubUser == null){
   $githubUser = 'wibus-wee';
 }
@@ -20,26 +27,26 @@ if ($githubUser == "" || $githubUser == null){
   $json = json_decode($file);
   ?>
 
-
 <!DOCTYPE html>
-<html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
-    <script src="./index.js"></script>
-  </head>
-  <body>
-    <div class="page">
-      <div class="wrapper-inner">
-        <div class="primary">
-        <div class="view">
-    <img class="item" src="<?echo $avatar_url;?>">
-    </div>
-          <span class="name"><?echo $name;?></span><span class="login"><?echo $login;?></span><span class="bio-api"><?echo $bio;?></span>
-        </div>
-        <div class="sub-i0">
-<?
+<html lang="zh-cn">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><?php $this->options->title(); ?></title>
+        <link rel="stylesheet" href="./index.css">
+        <script src="./index.js"></script>
+    </head>
+    <body>
+        <div class="page">
+            <div class="wrapper-inner">
+                <div class="primary">
+                    <div class="view">
+                        <img class="item" src="<?echo $avatar_url;?>">
+                    </div>
+                    <span class="name"><?echo $name;?></span><span class="login"><?echo $login;?></span><span class="bio-api"><?echo $bio;?></span>
+                </div>
+                <div class="sub-i0">
+                    <?
 
   foreach ($json as $item) {
     $body = '<div class="view-i0" style="background-color: rgb('.mt_rand(50, 255).', '.mt_rand(50, 255).', '.mt_rand(50, 255).')" >';
@@ -55,8 +62,8 @@ if ($githubUser == "" || $githubUser == null){
 }
 
 ?>
-      </div>
-    </div>
+                </div>
+            </div>
 
-
-</body></html>
+        </body>
+    </html>
