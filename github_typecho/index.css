@@ -87,14 +87,6 @@
   justify-content: center;
 }
 
-.layer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 268px;
-  height: 263px;
-  overflow: hidden;
-}
 
 .item {
   position: relative;
@@ -145,15 +137,6 @@
   font-size: 25px;
   font-weight: 400;
 }
-
-.text-background {
-  position: relative;
-  margin-top: 40px;
-  margin-left: 16px;
-  width: 269px;
-  height: 5px;
-}
-
 .sub-i0 {
   display: flex;
   align-items: flex-start;
@@ -186,18 +169,6 @@
   font-size: 20px;
 }
 
-.repo-name-2 {
-  position: relative;
-  margin-top: 44px;
-  max-width: 369px;
-  height: 40px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 40px;
-  white-space: pre;
-  color: #ffffff;
-  font-size: 28px;
-}
 
 .description {
   position: relative;
@@ -225,21 +196,6 @@
   font-weight: 400;
 }
 
-.view-i1 {
-  display: flex;
-  position: relative;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 66px;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 19px;
-  border-color: #979797;
-  background-color: #a3f3c5;
-  width: 381px;
-  height: 224px;
-}
-
 .label {
   position: absolute;
   top: 158px;
@@ -249,33 +205,6 @@
   color: #fdf9f9;
   font-size: 20px;
 }
-
-.repo-name-3 {
-  position: relative;
-  margin-top: 39px;
-  max-width: 369px;
-  height: 40px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 40px;
-  white-space: pre;
-  color: #ffffff;
-  font-size: 28px;
-}
-
-.description-1 {
-  position: relative;
-  margin-top: 20px;
-  max-width: 369px;
-  height: 28px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 28px;
-  white-space: nowrap;
-  color: #a0a0a0;
-  font-size: 20px;
-}
-
 .overlayer {
   position: relative;
   margin-top: 27px;
@@ -295,19 +224,6 @@
   flex-direction: column;
 }
 
-.view-i0-1 {
-  display: flex;
-  position: relative;
-  align-items: center;
-  flex-direction: column;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 19px;
-  border-color: #979797;
-  background-color: #de5656;
-  width: 381px;
-  height: 225px;
-}
 
 .word {
   position: absolute;
@@ -319,118 +235,7 @@
   font-size: 20px;
 }
 
-.repo-name-4 {
-  position: relative;
-  margin-top: 44px;
-  max-width: 369px;
-  height: 40px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 40px;
-  white-space: pre;
-  color: #ffffff;
-  font-size: 28px;
-}
 
-.description-2 {
-  position: relative;
-  margin-top: 20px;
-  max-width: 369px;
-  height: 28px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 28px;
-  white-space: nowrap;
-  color: #a0a0a0;
-  font-size: 20px;
-}
-
-.layer-1 {
-  position: relative;
-  margin-top: 27px;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 18px;
-  border-color: #979797;
-  background-color: rgba(216, 216, 216, 0.51);
-  width: 133px;
-  height: 36px;
-  font-weight: 400;
-}
-
-.view-i1-1 {
-  display: flex;
-  position: relative;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 66px;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 19px;
-  border-color: #979797;
-  background-color: #435676;
-  width: 381px;
-  height: 224px;
-}
-
-.tag-1 {
-  position: absolute;
-  top: 160px;
-  align-self: center;
-  line-height: 28px;
-  white-space: nowrap;
-  color: #fdf9f9;
-  font-size: 20px;
-}
-
-.repo-name-5 {
-  position: relative;
-  margin-top: 41px;
-  max-width: 369px;
-  height: 40px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 40px;
-  white-space: pre;
-  color: #ffffff;
-  font-size: 28px;
-}
-
-.description-3 {
-  position: relative;
-  margin-top: 20px;
-  max-width: 369px;
-  height: 28px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 28px;
-  white-space: nowrap;
-  color: #a0a0a0;
-  font-size: 20px;
-}
-
-.mask-1 {
-  position: relative;
-  margin-top: 27px;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 18px;
-  border-color: #979797;
-  background-color: rgba(216, 216, 216, 0.51);
-  width: 133px;
-  height: 36px;
-  font-weight: 400;
-}
-
-.wrapper-inner-1 {
-  display: flex;
-  position: relative;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 8px;
-  margin-left: 138px;
-  font-weight: 400;
-}
 
 .header {
   display: flex;
@@ -440,20 +245,7 @@
   height: 20px;
 }
 
-.icon-house {
-  margin-top: 1px;
-  margin-right: 18px;
-  width: 17px;
-  height: 17px;
-}
 
-.blog {
-  line-height: 14px;
-  white-space: nowrap;
-  color: #000000;
-  font-size: 14px;
-  font-weight: 400;
-}
 
 .body {
   display: flex;
@@ -462,179 +254,4 @@
   flex-direction: row;
   margin-top: 15px;
   height: 20px;
-}
-
-.icon {
-  margin-top: -3px;
-  margin-right: 17px;
-  width: 15px;
-  height: 11px;
-}
-
-.email {
-  line-height: 14px;
-  white-space: nowrap;
-  color: #000000;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.wrapper-inner-2 {
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  align-self: center;
-  flex-direction: row;
-  margin-top: 2px;
-}
-
-.primary-1 {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  margin-top: 8px;
-  margin-right: 249px;
-  height: 20px;
-  font-weight: 400;
-}
-
-.dot {
-  margin-right: 19px;
-  width: 7px;
-  height: 12px;
-}
-
-.publicrepos {
-  line-height: 14px;
-  white-space: nowrap;
-  color: #000000;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.sub-i0-1 {
-  display: flex;
-  position: relative;
-  align-items: center;
-  flex-direction: column;
-  margin-right: 60px;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 19px;
-  border-color: #979797;
-  background-color: #6777d9;
-  width: 381px;
-  height: 225px;
-}
-
-.label-1 {
-  position: absolute;
-  top: 147px;
-  align-self: center;
-  line-height: 28px;
-  white-space: nowrap;
-  color: #fdf9f9;
-  font-size: 20px;
-}
-
-.repo-name-6 {
-  position: relative;
-  margin-top: 28px;
-  max-width: 369px;
-  height: 40px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 40px;
-  white-space: pre;
-  color: #ffffff;
-  font-size: 28px;
-}
-
-.description-4 {
-  position: relative;
-  margin-top: 20px;
-  max-width: 369px;
-  height: 28px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 28px;
-  white-space: nowrap;
-  color: #a0a0a0;
-  font-size: 20px;
-}
-
-.overlayer-1 {
-  position: relative;
-  margin-top: 27px;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 18px;
-  border-color: #979797;
-  background-color: rgba(216, 216, 216, 0.51);
-  width: 133px;
-  height: 36px;
-  font-weight: 400;
-}
-
-.sub-i1-1 {
-  display: flex;
-  position: relative;
-  align-items: center;
-  flex-direction: column;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 19px;
-  border-color: #979797;
-  background-color: #de5656;
-  width: 381px;
-  height: 225px;
-}
-
-.word-1 {
-  position: absolute;
-  top: 156px;
-  align-self: center;
-  line-height: 28px;
-  white-space: nowrap;
-  color: #fdf9f9;
-  font-size: 20px;
-}
-
-.repo-name-7 {
-  position: relative;
-  margin-top: 37px;
-  max-width: 369px;
-  height: 40px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 40px;
-  white-space: pre;
-  color: #ffffff;
-  font-size: 28px;
-}
-
-.description-5 {
-  position: relative;
-  margin-top: 20px;
-  max-width: 369px;
-  height: 28px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 28px;
-  white-space: nowrap;
-  color: #a0a0a0;
-  font-size: 20px;
-}
-
-.layer-2 {
-  position: relative;
-  margin-top: 27px;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 18px;
-  border-color: #979797;
-  background-color: rgba(216, 216, 216, 0.51);
-  width: 133px;
-  height: 36px;
-  font-weight: 400;
 }
