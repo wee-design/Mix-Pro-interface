@@ -246,6 +246,11 @@
 }
 
 
+.item {
+  position: relative;
+  width: 268px;
+  height: 263px;
+}
 
 .body {
   display: flex;
@@ -255,3 +260,18 @@
   margin-top: 15px;
   height: 20px;
 }
+
+
+.repo-name-2 {
+  position: relative;
+  margin-top: 44px;
+  max-width: 369px;
+  height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 40px;
+  white-space: pre;
+  color: #ffffff;
+  font-size: 28px;
+}
+
